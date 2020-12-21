@@ -1,3 +1,3 @@
 ControlFocus("Open","","Edit1")
-ControlSetText("Open","","Edit1","D:\bcd\Incubyte\fileUpload.txt")
+ControlSetText("Open","","Edit1",@UserProfileDir & "\fileUpload.txt")
 ControlClick("Open","","Button1")
